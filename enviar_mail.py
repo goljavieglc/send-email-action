@@ -17,4 +17,5 @@ def send_notifying_mail(user, passw):
   server.send_message(msg)
   server.quit();
 
-send_notifying_mail(user, clave)
+if __name__ == "__main__": 
+    send_notifying_mail(user, clave)
